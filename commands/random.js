@@ -1,0 +1,60 @@
+exports.run = async (bot, message, args) => {
+    message.channel.send(listOfBeans[Math.floor(Math.random() * listOfBeans.length)]);
+}
+
+exports.help = {
+    name:"random"
+}
+
+const listOfBeans = [
+"sunkist-lemon",
+"peach",
+"licorice",
+"wild-blackberry",
+"cotton-candy",
+"crushed-pineapple", 
+"watermelon", 
+"coconut", 
+"cinnamon",
+"plum",
+"toasted-marshmallow",
+"strawberry-cheesecake",
+"lemon-lime",
+"raspberry",
+"sunkist-lime",
+"caramel-corn",
+"strawberry-daiquiri",
+"butter-popcorn",
+"sour-cherry",
+"cream-soda",
+"red-apple",
+"sunkist-tangerine",
+"sunkist-pink-grapefruit",
+"chili-mango",
+"lemon-drop",
+"juicy-pear",
+"orange-sherbet",
+"berry-blue",
+"blueberry",
+"mixed-berry-smoothie",
+"island-punch",
+"french-vanilla",
+"cappuccino",
+"strawberry-jam",
+"margarita",
+"tutti-fruitti",
+"pina-colada",
+"sunkist-orange",
+"pomegranate",
+"sizzling-cinnamon",
+"top-banana",
+"root-beer",
+"very-cherry",
+"cantaloupe",
+"green-apple",
+"mango",
+"kiwi",
+"bubble-gum",
+"chocolate-pudding",
+"dr.pepper"
+]
